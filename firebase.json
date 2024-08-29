@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "site": "oddsummer",
+    "public": "docs",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

@@ -20,8 +20,8 @@
 				<!-- One -->
 					<section class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
 						<div class="content">
-							<h1>Story</h1>
-							<p class="major">A (modular, highly tweakable) responsive one-page template designed by <a href="https://html5up.net">HTML5 UP</a> and released for free under the <a href="https://html5up.net/license">Creative Commons</a>.</p>
+							<h1>Oddsummer_x</h1>
+							<p class="major">template designed by <a href="https://html5up.net">HTML5 UP</a> and released for free under the <a href="https://html5up.net/license">Creative Commons</a>.</p>
 							<ul class="actions stacked">
 								<li><a href="#first" class="button big wide smooth-scroll-middle">Get Started</a></li>
 							</ul>
@@ -351,6 +351,31 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+
+
+			<script type="module">
+  				// Import the functions you need from the SDKs you need
+  			import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.0/firebase-app.js";
+  			import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.13.0/firebase-analytics.js";
+  			// TODO: Add SDKs for Firebase products that you want to use
+  			// https://firebase.google.com/docs/web/setup#available-libraries
+
+  			// Your web app's Firebase configuration
+  			// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  			const firebaseConfig = {
+    			apiKey: "AIzaSyD56_eG0-J9uKTIAA5iprv9UgTLJ8n5oik",
+    			authDomain: "oddsummer-a5f0d.firebaseapp.com",
+    			projectId: "oddsummer-a5f0d",
+    			storageBucket: "oddsummer-a5f0d.appspot.com",
+    			messagingSenderId: "669356909861",
+    			appId: "1:669356909861:web:ed903c176ae75057ffa6cc",
+    			measurementId: "G-043LGRW38N"
+  			};
+
+  			// Initialize Firebase
+ 			const app = initializeApp(firebaseConfig);
+  			const analytics = getAnalytics(app);
+			</script>
 
 	</body>
 </html>
